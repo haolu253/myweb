@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+#wall{
+    position: relative;
+    background-image: url("https://p.favim.com/orig/2019/02/11/8bit-city-8-bit-Favim.com-6875655.gif");
+    background-size:cover;
+    height: 50.5vw;
+    text-align: center;
+}
+
+#main{
+    padding-top: 200px;
+}
