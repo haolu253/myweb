@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import 'aos/dist/aos.css'; 
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mywebsite';
+
+  ngOnInit(){
+    AOS.init();
+  }
 }
