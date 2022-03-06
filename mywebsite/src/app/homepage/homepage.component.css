@@ -178,3 +178,7 @@ h3.exp-2::before{
   padding-right: 11vw;
   padding-bottom: 2.5vw;
 }
+
+@media (prefers-color-scheme: dark) {
+
+}
