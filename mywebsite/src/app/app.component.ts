@@ -12,8 +12,8 @@ export class AppComponent {
 
   ngOnInit(){
     AOS.init();
-    if (navigator.userAgent.match(/samsung/i)) {
-      alert("You are using a defective browser (Samsung Internet) that " +
+    if (navigator.userAgent.match(/samsung/i) || navigator.userAgent.match(/safari/i) ) {
+      alert("You are using a defective browser (Samsung Internet or Safari) that " +
       "might not be configured to display this website properly. " +
       "You should consider using a proper standards-compliant " +
       "browser instead. \n\n"+
