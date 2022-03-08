@@ -5,6 +5,7 @@ body{
     font-family: Helvetica, Sans-Serif;
     color: white;
     word-wrap: break-word;
+    overflow-x: hidden
 }
 
 #wall{
