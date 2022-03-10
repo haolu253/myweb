@@ -160,7 +160,6 @@ body{
 }
 
 .item-3{
-  background-color: #2c2b6e;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 1;
@@ -260,10 +259,10 @@ h3.pj1-title::after{
 }
 
 #rightrow{
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-justify-content: right;
+  -webkit-box-pack: flex-end;
+      -ms-flex-pack: flex-end;
+          justify-content: flex-end;
+  -webkit-justify-content: flex-end;
 }
 
 #pj-rightimg{
@@ -298,4 +297,28 @@ h3.pj3-title::before{
 h3.pj4-title::before{
   content: "PORTFOLIO";
   color: #ffc64a;
+}
+
+.item-6{
+  background-color: #45378b;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/span 3;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  padding-left: 11vw;
+  padding-right: 11vw;
+  padding-bottom: 2.5vw;
+}
+
+
+.item-7{
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/span 3;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  padding-left: 11vw;
+  padding-right: 11vw;
+  padding-bottom: 2.5vw;
 }
